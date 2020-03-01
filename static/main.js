@@ -12,7 +12,6 @@ window.addEventListener("load", () => {
 	}
 	else {
 		document.getElementById('mobile-links').style.display = "inline"
-		//document.getElementsByClassName('one')[0].style.height = "10vh"
 		document.getElementsByClassName('two')[0].style.height = window.innerHeight - 110 + "px"
 	}
 })
